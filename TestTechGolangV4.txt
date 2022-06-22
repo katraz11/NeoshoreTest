@@ -1,0 +1,18 @@
+GOLANG MINI TEST 
+
+Create a golang program which:
+1) loads the data from the following site providing a REST interface API V3:
+https://restcountries.com/#rest-countries
+2) extract data and fills an array of the following structure
+
+type Countries struct{
+  name string  // official name in english
+  cca2 string  // country code on 2 digits
+  cca3 string  // country code on 3 digits
+  region string
+  subregion string
+  currency string 
+  currencySymbo string
+}
+
+3) print the array for Europe and north America 
