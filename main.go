@@ -18,15 +18,6 @@ type Currency struct{
 	Symbol string`json:"symbol"`
 }
 
-type CurrencyName struct{
-	name string
-}
-
-type CurrencySymbo struct{
-	name string
-}
-
-
 type CountriesFetched struct{
 	Name Name `json:"name"`
 	Cca2 string  `json:"cca2"`// country code on 2 digits
@@ -62,9 +53,6 @@ func main() {
 	if err !=nil{
 		log.Fatal(err)
 	}
-
-
-
 		
 	  var countryesFetched [] CountriesFetched
 	  var countryes[] Countries
